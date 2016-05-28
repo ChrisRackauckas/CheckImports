@@ -1,5 +1,9 @@
 using CheckImports
 using Base.Test
 
-# write your own tests here
-@test 1 == 1
+println(modulechildren(Main))
+@test isimported("CheckImports")
+@test !isimported("GrowableArrays",m=Main)
+Pkg.add("GrowableArrays")
+using GrowableArrays
+@test isimported("GrowableArrays",m=Main)
