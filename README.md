@@ -1,4 +1,4 @@
-# CheckImports
+# CheckImports.jl
 
 This is a lightweight package to make it easy to check if a user has imported
 (or /using) a specific package. To see if a package is imported, simply call
