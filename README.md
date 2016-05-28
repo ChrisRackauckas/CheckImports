@@ -17,6 +17,15 @@ modulechildren(Main)
 
 which returns a vector of the imported modules.
 
+## Installation
+
+To install the package, use
+
+```julia
+Pkg.add("CheckImports")
+using CheckImports
+```
+
 ## Acknowledgements
 
 I would like to acknowledge Mike Innes for the original idea for `modulechildren`.
