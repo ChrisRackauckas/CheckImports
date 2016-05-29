@@ -1,5 +1,7 @@
 # CheckImports.jl
 
+[![Build Status](https://travis-ci.org/ChrisRackauckas/CheckImports.jl.svg?branch=master)](https://travis-ci.org/ChrisRackauckas/CheckImports.jl) [![Build status](https://ci.appveyor.com/api/projects/status/s5jcv6ys71ir9clw?svg=true)](https://ci.appveyor.com/project/ChrisRackauckas/checkimports-jl)
+
 This is a lightweight package to make it easy to check if a user has imported
 (or /using) a specific package. To see if a package is imported, simply call
 
