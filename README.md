@@ -10,6 +10,7 @@ That package is superseded by functionality from base. Please instead use:
 isdefined(Main,:Module)
 ```
 
+# Package Details
 
 This is a lightweight package to make it easy to check if a user has imported
 (or /using) a specific package. To see if a package is imported, simply call
@@ -33,7 +34,7 @@ which returns a vector of the imported modules.
 To install the package, use
 
 ```julia
-Pkg.add("CheckImports")
+Pkg.clone("https://github.com/ChrisRackauckas/CheckImports.jl.git")
 using CheckImports
 ```
 
